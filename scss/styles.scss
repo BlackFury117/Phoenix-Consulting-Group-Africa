@@ -89,10 +89,11 @@ nav {
     }
 
     ul {
+      z-index: 5;
       position: fixed;
       top: 80px;
       left: -100%;
-      background: red;
+      background-color: black;
       height: 100vh;
       width: 100%;
       text-align: center;
@@ -113,7 +114,7 @@ nav {
           &.active,
           &:hover {
             background: none;
-            color: redr;
+            color: red;
           }
         }
       }
@@ -134,5 +135,56 @@ nav {
   background-size:cover;
   background-position: center;
   position:relative;
-  opacity: 0.7;
+  
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+  
+  .first-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+
+    .rocket{
+      font-size: 3rem;
+      color: #0b5a7f;
+      margin-bottom: 1rem;
+    }
+
+    h1{
+      color: #0b5a7f;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .hero-text{
+      font-weight: 500;
+      color: whitesmoke;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .btn-hero{
+      color: #0b5a7f;
+      background-color: white;
+      font-weight: 600;
+      border: 1px solid white;
+      border-radius: .25rem;
+      padding: .7rem 2rem;
+
+      &:hover{
+        border: none;
+        color: white;
+        background-color: #0b5a7f;
+      }
+    }
+  }
 }
