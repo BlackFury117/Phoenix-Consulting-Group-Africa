@@ -188,6 +188,7 @@ nav {
       border: 1px solid white;
       border-radius: .25rem;
       padding: .7rem 2rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 
       &:hover{
         border: none;
@@ -197,3 +198,4 @@ nav {
     }
   }
 }
+
