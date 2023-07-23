@@ -369,7 +369,7 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 /// THIRD SECTION ///
 
 .third-section{
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   .line-3{
     display: flex;
     justify-content: flex-start;
@@ -483,5 +483,37 @@ $shadowColor: rgba(0, 0, 0, 0.12);
       font-weight: 500;
       color: variables.$main-black-color;
     }
+  }
+}
+
+/// THIRD SECTION ///
+
+.fourth-section{
+  .line-4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+  
+    .block_4::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background-color: variables.$main-red-color;
+      margin-right: 1rem;
+    }
+  
+    .red-text-4{
+      font-size: 1rem;
+      font-weight: 600;
+      color: variables.$main-red-color;
+      letter-spacing: 1px;
+    }
+  }
+
+  .mission{
+    @include heading;
   }
 }
