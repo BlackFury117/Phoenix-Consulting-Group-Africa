@@ -18,3 +18,16 @@
   margin-left: 4rem;
   margin-bottom: 2rem;
 }
+
+@mixin icon-wrapper{
+  background-color: variables.$main-blue-color;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: white;
+  border-radius: 50%;
+  @include center;
+  transition: 0.5s;
+}

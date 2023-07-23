@@ -368,31 +368,120 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 
 /// THIRD SECTION ///
 
-.line-3{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 1rem;
-  margin-left: 4rem;
-
-  .block_3::after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 3px;
-    background-color: variables.$main-red-color;
-    margin-right: 1rem;
+.third-section{
+  margin-bottom: 3rem;
+  .line-3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+  
+    .block_3::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background-color: variables.$main-red-color;
+      margin-right: 1rem;
+    }
+  
+    .red-text-3{
+      font-size: 1rem;
+      font-weight: 600;
+      color: variables.$main-red-color;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .why-us{
+    @include heading;
+  }
+  
+  .best-choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto 3rem auto;
+    padding: 2rem 2.5rem;
+    background-color: variables.$main-blue-color;
+    border-radius: .6rem;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.20);
+  
+    .quotation{
+      font-size: 6rem;
+      position: absolute;
+      top: 0;
+      right: 2rem;
+      z-index: -1;
+      opacity: .2;
+    }
+  
+    .best-text{
+      color: white;
+      font-weight: 500;
+      margin-top: 1.2rem;
+      line-height: 1.6;
+    }
   }
 
-  .red-text-3{
-    font-size: 1rem;
-    font-weight: 600;
-    color: variables.$main-red-color;
-    letter-spacing: 1px;
+  .third-container{  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    text-align: center;
+    padding: 0 4rem;
+
+    .col{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+
+    .card-bis{
+      background-color: white;
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.20);
+      border-radius: .6rem;
+      flex: 1;
+      padding: 1.5rem;
+    }
+
+    .card-bis-2{
+      background-color: variables.$main-blue-color;
+
+      .icon-wrapper-2{
+        background-color: white;
+        color: variables.$main-blue-color;
+      }
+
+      .body, .footer{
+        color: white;
+      }
+    }
+
+    .icon-wrapper{
+      @include icon-wrapper;
+    }
+
+    .body{
+      font-size: 20px;
+      font-weight: 600;
+      color: variables.$main-blue-color;
+      margin: 1.5rem 0 1.5rem 0;
+    }
+
+    .footer{
+      font-weight: 500;
+      color: variables.$main-black-color;
+    }
   }
 }
-
-.why-us{
-  @include heading;
-}
-
