@@ -489,6 +489,8 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 /// THIRD SECTION ///
 
 .fourth-section{
+  margin-bottom: 10rem;
+  
   .line-4{
     display: flex;
     justify-content: flex-start;
@@ -515,5 +517,74 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 
   .mission{
     @include heading;
+  }
+
+  .fourth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: variables.$main-red-color;
+    padding: 1rem 4rem 1rem 4rem;
+    margin: 0 auto 0 auto;
+
+    .missions{
+      margin: 0 auto 0 auto;
+      .smiling-man{
+        display: flex;
+        width: 300px;
+        margin: 0 auto 1rem auto;
+      }
+
+      .mission-text{
+        font-weight: 500;
+        color: white;
+        line-height: 1.6;
+        width: 600px;
+        text-align: center;
+      }
+    }
+
+    .achievements{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      gap: 30px;
+
+      .cols{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 0 35px rgba(0, 0, 0, 0.30);
+        border-radius: .35rem;
+        padding: 2rem;
+        position: relative;
+        bottom: -100px;
+
+        .number{
+          color: variables.$main-red-color;
+          font-size: 3rem;
+          font-weight: 700;
+        }
+
+        .text-num{
+          color: variables.$main-black-color;
+          font-size: 1.1rem;
+          font-weight: 600;
+        }
+      }
+
+      .cols-2{
+        background-color: variables.$main-red-color;
+
+        .number, .text-num{
+          color: white;
+        }
+      }
+    }
   }
 }
