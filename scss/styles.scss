@@ -543,6 +543,7 @@ nav {
 
 .fifth-section{
   padding: 0 4rem;
+  margin-bottom: 4rem;
 
   .line-5{
     @include line;
@@ -589,6 +590,97 @@ nav {
     }
   }
 }
+
+/// SIXTH SECTION ///
+
+.sixth-section{
+  padding: 0 4rem;
+  
+  .line-6{
+    @include line;
+    margin-left: 0;
+  
+    .block_6::after {
+      @include block;
+    }
+  
+    .red-text-6{
+      @include red-text;
+    }
+  }
+
+  .us{
+    @include heading;
+    margin-left: 0;
+  }
+}
+
+// Variables
+// $primary-color: #4285f4;
+// $secondary-color: #0f9d58;
+// $white-color: #ffffff;
+// $font-family: Arial, sans-serif;
+
+// // Mixins
+// @mixin center-vertically {
+//   display: flex;
+//   align-items: center;
+// }
+
+// // Styles
+// .about-section {
+//   background-color: variables.$main-blue-color;
+//   color: $white-color;
+//   padding: 50px 0;
+
+//   .container {
+//     max-width: 960px;
+//     margin: 0 auto;
+//     text-align: center;
+
+//     .section-title {
+//       font-size: 2.7rem;
+//       font-weight: bold;
+//       margin-bottom: 20px;
+//     }
+
+//     .section-description {
+//       font-size: 18px;
+//       margin-bottom: 40px;
+//     }
+
+//     .team-members {
+//       list-style: none;
+//       padding: 0;
+//       display: grid;
+//       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+//       gap: 20px;
+//       justify-items: center;
+
+//       .team-member {
+//         background-color: $secondary-color;
+//         padding: 20px;
+//         border-radius: 10px;
+
+//         img {
+//           max-width: 100%;
+//           border-radius: 50%;
+//         }
+
+//         .member-name {
+//           font-size: 20px;
+//           margin: 10px 0;
+//         }
+
+//         .member-role {
+//           font-size: 16px;
+//           color: $white-color;
+//         }
+//       }
+//     }
+//   }
+// }
+
 
 
 
