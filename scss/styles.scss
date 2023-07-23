@@ -251,10 +251,7 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 }
 
 .best-services{
-  color: variables.$main-blue-color;
-  font-size: 2.7rem;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  @include heading;
 }
 
 .second-section {
@@ -360,6 +357,7 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 @media screen and (min-width: 992px) {
   .second-section {
     padding: 1em 3em;
+    margin-bottom: 3rem;
   }
 
   .column {
@@ -367,3 +365,34 @@ $shadowColor: rgba(0, 0, 0, 0.12);
     max-width: 25%;
   }
 }
+
+/// THIRD SECTION ///
+
+.line-3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+
+  .block_3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: variables.$main-red-color;
+    margin-right: 1rem;
+  }
+
+  .red-text-3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: variables.$main-red-color;
+    letter-spacing: 1px;
+  }
+}
+
+.why-us{
+  @include heading;
+}
+
