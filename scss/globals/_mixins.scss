@@ -19,6 +19,30 @@
   margin-bottom: 2rem;
 }
 
+@mixin line{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+}
+
+@mixin block{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: variables.$main-red-color;
+  margin-right: 1rem;
+}
+
+@mixin red-text{
+  font-size: 1rem;
+  font-weight: 600;
+  color: variables.$main-red-color;
+  letter-spacing: 1px;
+}
+
 @mixin icon-wrapper{
   background-color: variables.$main-blue-color;
   position: relative;

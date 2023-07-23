@@ -163,24 +163,15 @@ nav {
     }
 
     .line{
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
+      @include line;
+      margin-left: 0;
 
       .block_1::after {
-        content: "";
-        display: block;
-        width: 100px;
-        height: 3px;
-        background-color: variables.$main-red-color;
-        margin-right: 1rem;
+        @include block;
       }
 
       .red-text{
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: variables.$main-red-color;
-        letter-spacing: 1px;
+        @include red-text;
       }
     }
 
@@ -221,32 +212,15 @@ nav {
 
 /// SECOND SECTION ///
 
-// Define variables
-$secondaryColor: #ffffff;
-$accentColor: #575a7b;
-$shadowColor: rgba(0, 0, 0, 0.12);
-
 .line-2{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 1rem;
-  margin-left: 4rem;
+  @include line;
 
   .block_2::after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 3px;
-    background-color: variables.$main-red-color;
-    margin-right: 1rem;
+    @include block;
   }
 
   .red-text-2{
-    font-size: 1rem;
-    font-weight: 600;
-    color: variables.$main-red-color;
-    letter-spacing: 1px;
+    @include red-text;
   }
 }
 
@@ -275,7 +249,7 @@ $shadowColor: rgba(0, 0, 0, 0.12);
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(#{$secondaryColor} 50%, #{variables.$main-blue-color} 50%);
+  background: linear-gradient(#{#ffffff} 50%, #{variables.$main-blue-color} 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -307,13 +281,13 @@ $shadowColor: rgba(0, 0, 0, 0.12);
     font-size: 30px;
     height: 2.5em;
     width: 2.5em;
-    color: $secondaryColor;
+    color: #ffffff;
     border-radius: 50%;
     @include center;
     transition: 0.5s;
 
     &:hover {
-      background-color: $secondaryColor;
+      background-color: #ffffff;
       color: variables.$main-blue-color;
     }
   }
@@ -325,7 +299,7 @@ $shadowColor: rgba(0, 0, 0, 0.12);
     margin: 1em 0;
 
     &:hover {
-      color: $secondaryColor;
+      color: #ffffff;
     }
   }
 
@@ -371,26 +345,14 @@ $shadowColor: rgba(0, 0, 0, 0.12);
 .third-section{
   margin-bottom: 5rem;
   .line-3{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1rem;
-    margin-left: 4rem;
+    @include line;
   
     .block_3::after {
-      content: "";
-      display: block;
-      width: 100px;
-      height: 3px;
-      background-color: variables.$main-red-color;
-      margin-right: 1rem;
+      @include block;
     }
   
     .red-text-3{
-      font-size: 1rem;
-      font-weight: 600;
-      color: variables.$main-red-color;
-      letter-spacing: 1px;
+      @include red-text;
     }
   }
   
@@ -492,26 +454,14 @@ $shadowColor: rgba(0, 0, 0, 0.12);
   margin-bottom: 10rem;
   
   .line-4{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1rem;
-    margin-left: 4rem;
+    @include line;
   
     .block_4::after {
-      content: "";
-      display: block;
-      width: 100px;
-      height: 3px;
-      background-color: variables.$main-red-color;
-      margin-right: 1rem;
+      @include block;
     }
   
     .red-text-4{
-      font-size: 1rem;
-      font-weight: 600;
-      color: variables.$main-red-color;
-      letter-spacing: 1px;
+      @include red-text;
     }
   }
 
@@ -595,25 +545,15 @@ $shadowColor: rgba(0, 0, 0, 0.12);
   padding: 0 4rem;
 
   .line-5{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 1rem;
+    @include line;
+    margin-left: 0;
   
     .block_5::after {
-      content: "";
-      display: block;
-      width: 100px;
-      height: 3px;
-      background-color: variables.$main-red-color;
-      margin-right: 1rem;
+      @include block;
     }
   
     .red-text-5{
-      font-size: 1rem;
-      font-weight: 600;
-      color: variables.$main-red-color;
-      letter-spacing: 1px;
+      @include red-text;
     }
   }
 
