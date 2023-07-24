@@ -219,6 +219,7 @@ nav {
 
       h1{
         font-size: 2rem;
+        letter-spacing: 1px;
       }
 
       .hero-text{
@@ -499,7 +500,30 @@ nav {
 
 @include mobile-view{
   .third-section{
-    
+
+    .line-3{
+      margin-left: 1rem;
+  
+      .block_3::after {
+        @include block;
+        width: 40px;
+      }
+    }
+
+    .why-us{
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+
+    .best-choice{
+      width: 90%;
+      padding: 1rem 1rem;
+      margin: 0 1rem 3rem 1rem;
+    }
+
+    .third-container{
+      padding: 0 1rem;
+    }
   }
 }
 
