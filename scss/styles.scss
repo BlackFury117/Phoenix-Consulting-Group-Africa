@@ -270,6 +270,26 @@ nav {
   }
 }
 
+@include laptop-view{
+  .first-section{
+    height: 80vh;
+
+    .first-container{
+      width: 100%;
+      padding: 0 2rem;
+      transform: translate(-50%, -50%);
+
+      h1{
+        letter-spacing: 0;
+      }
+
+      .hero-text{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
 /// SECOND SECTION ///
 
 .line-2{
