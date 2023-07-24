@@ -212,6 +212,7 @@ nav {
 
 @include mobile-view{
   .first-section{
+    height: 85vh;
     .first-container{
       width: 100%;
       padding: 0 1rem;
@@ -898,6 +899,17 @@ footer {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
       }
+    }
+  }
+}
+
+@include mobile-view{
+  footer{
+    padding: 0 1.5rem 2rem 1.5rem;
+
+    .copyright{
+      justify-content: flex-start;
+      font-size: .7rem;
     }
   }
 }
