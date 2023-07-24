@@ -1263,3 +1263,19 @@ footer {
     padding: 0 2rem 2rem 2rem;
   }
 }
+
+@include laptop-view{
+  footer{
+    padding: 0 2rem 2rem 2rem;
+
+    .footer-columns{
+      .footer-column{
+        .map{
+          span{
+            font-size: .99rem;
+          }
+        }
+      }
+    }
+  }
+}
