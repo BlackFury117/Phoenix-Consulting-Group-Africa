@@ -618,6 +618,46 @@ nav {
   }
 }
 
+@include mobile-view{
+  .fourth-section{
+    margin-bottom: 4.6rem;
+    .line-4{
+      margin-left: 1rem;
+  
+      .block_4::after {
+        @include block;
+        width: 40px;
+      }
+    }
+
+    .mission{
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+
+    .fourth-container{
+      padding: 2rem 1rem 2rem 1rem;
+
+      .missions{
+        width: 100%;
+
+        .mission-text{
+          width: 100%;
+          margin-bottom: 2.5rem;
+        }
+      }
+
+      .achievements{
+        gap: 15px;
+
+        .cols{
+          position: static;
+        }
+      }
+    }
+  }
+}
+
 /// FIFTH SECTION ///
 
 .fifth-section{
