@@ -55,3 +55,9 @@
   @include center;
   transition: 0.5s;
 }
+
+@mixin mobile-view{
+  @media only screen and (max-width: 600px){
+    @content;
+  }
+}

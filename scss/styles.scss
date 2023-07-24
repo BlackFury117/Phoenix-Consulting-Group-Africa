@@ -210,6 +210,35 @@ nav {
   }
 }
 
+@include mobile-view{
+  .first-section{
+    .first-container{
+      width: 100%;
+      padding: 0 1rem;
+      transform: translate(-50%, -50%);
+
+      h1{
+        font-size: 2rem;
+      }
+
+      .hero-text{
+        padding-right: 0;
+      }
+
+      .line{
+        .block_1::after {
+          @include block;
+          width: 40px
+        }
+      }
+
+      .btn-hero{
+        padding: .5rem 2rem;
+      }
+    }
+  }
+}
+
 /// SECOND SECTION ///
 
 .line-2{
