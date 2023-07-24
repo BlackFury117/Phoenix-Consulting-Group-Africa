@@ -673,7 +673,16 @@ footer {
   background-size:cover;
   background-position: center;
   height: 100%;
-  padding: 0 4rem 4rem 4rem;
+  padding: 0 4rem 2rem 4rem;
+
+  .copyright{
+    font-size: .8rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0;
+  }
   
   .brand-section {
     text-align: left;
@@ -709,20 +718,15 @@ footer {
         }
 
         span{
-          font-size: .9rem;
+          font-size: .850rem;
+          font-weight: 500;
         }
       }
 
       h3 {
         color: variables.$main-red-color;
         font-size: 1.5rem;
-        margin-bottom: 1rem;
-      }
-
-      p{
-        font-weight: 500;
-        font-size: .9rem;
-        margin-bottom: .9rem;
+        margin-bottom: 1.5rem;
       }
     }
   }
