@@ -710,6 +710,26 @@ nav {
   }
 }
 
+@include mobile-view{
+  .fifth-section{
+    padding: 0 1rem;
+
+    .line-5{
+      margin-left: 0;
+  
+      .block_5::after {
+        @include block;
+        width: 40px;
+      }
+    }
+
+    .confiance{
+      font-size: 2rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+}
+
 /// SIXTH SECTION ///
 
 .line-6{
