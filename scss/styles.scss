@@ -613,7 +613,7 @@ nav {
   background-image: url(/assets/images/black-power-team-work.jpg);
   background-size:cover;
   background-position: center;
-  height: 80vh;
+  height: 70vh;
   position: relative;
   margin-bottom: 5rem;
 
@@ -624,7 +624,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: rgba(0, 0, 0, 0.65);
   }
 
   .sixth-container{
@@ -639,9 +639,9 @@ nav {
       }
 
       .text-last{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        line-height: 1.4;
+        line-height: 1.5;
         color: white;
         margin-bottom: 1rem;
       }
@@ -654,7 +654,7 @@ nav {
 
         .icon{
           color: white;
-          font-size: 2rem;
+          font-size: 1.8rem;
           margin: 1rem;
 
           &:hover{
@@ -663,8 +663,6 @@ nav {
         }
       }
     }
-    
-    
   }
 }
 
