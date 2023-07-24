@@ -805,6 +805,37 @@ nav {
   }
 }
 
+@include mobile-view{
+  .line-6{
+    margin-left: 1rem;
+
+    .block_6::after {
+      @include block;
+      width: 40px;
+    }
+  }
+
+  .us{
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .sixth-section{
+    height: 85vh;
+
+    .sixth-container{
+      
+      .about{
+        width: 90%;
+
+        h3{
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
                       /// FOOTER SECTION ///
 
 footer {
