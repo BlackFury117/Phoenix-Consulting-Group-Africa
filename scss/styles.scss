@@ -420,6 +420,27 @@ nav {
   }
 }
 
+@include tablet-view{
+  .line-2{
+    margin-left: 2rem;
+
+    .block_2::after {
+      @include block;
+      width: 60px;
+    }
+  }
+
+  .best-services{
+    font-size: 2.30rem;
+    margin-left: 2rem;
+  }
+
+  .second-section{
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
 /// THIRD SECTION ///
 
 .third-section{
