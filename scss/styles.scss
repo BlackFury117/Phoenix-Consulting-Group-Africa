@@ -994,6 +994,17 @@ nav {
   }
 }
 
+@include laptop-view{
+  .fifth-section{
+    padding: 0 2rem;
+
+    .confiance{
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
 /// SIXTH SECTION ///
 
 .line-6{
