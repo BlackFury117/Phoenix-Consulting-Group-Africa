@@ -369,6 +369,26 @@ nav {
   }
 }
 
+@include mobile-view{
+  .line-2{
+    margin-left: 1rem;
+
+    .block_2::after {
+      @include block;
+      width: 40px;
+    }
+  }
+
+  .best-services{
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .second-section{
+    margin-bottom: 3rem;
+  }
+}
+
 /// THIRD SECTION ///
 
 .third-section{
@@ -474,6 +494,12 @@ nav {
       font-weight: 500;
       color: variables.$main-black-color;
     }
+  }
+}
+
+@include mobile-view{
+  .third-section{
+    
   }
 }
 
