@@ -666,9 +666,64 @@ nav {
   }
 }
 
+                      /// FOOTER SECTION ///
 
+footer {
+  background-image: url(/assets/images/footer_bg.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 100%;
+  padding: 0 4rem 4rem 4rem;
+  
+  .brand-section {
+    text-align: left;
+    padding: 2rem 0;
+    
+    .logo-footer{
+      width: 180px;
+    }
+  }
 
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    color: #fff;
 
+    .footer-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
 
+      .map{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
 
+        .icon-footer{
+          color: variables.$main-red-color;
+          font-size: 1rem;
+          margin-right: .5rem;
+        }
 
+        span{
+          font-size: .9rem;
+        }
+      }
+
+      h3 {
+        color: variables.$main-red-color;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      p{
+        font-weight: 500;
+        font-size: .9rem;
+        margin-bottom: .9rem;
+      }
+    }
+  }
+}
