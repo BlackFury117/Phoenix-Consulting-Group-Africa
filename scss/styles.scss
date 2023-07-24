@@ -461,6 +461,22 @@ nav {
   }
 }
 
+@include laptop-view{
+  .line-2{
+    margin-left: 2rem;
+  }
+
+  .best-services{
+    font-size: 2.4rem;
+    margin-left: 2rem;
+  }
+
+  .second-section{
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
 /// THIRD SECTION ///
 
 .third-section{
