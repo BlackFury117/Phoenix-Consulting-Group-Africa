@@ -1094,3 +1094,9 @@ footer {
     }
   }
 }
+
+@include tablet-view{
+  footer{
+    padding: 0 2rem 2rem 2rem;
+  }
+}
