@@ -213,6 +213,7 @@ nav {
 @include mobile-view{
   .first-section{
     height: 85vh;
+
     .first-container{
       width: 100%;
       padding: 0 1rem;
@@ -236,6 +237,34 @@ nav {
 
       .btn-hero{
         padding: .5rem 2rem;
+      }
+    }
+  }
+}
+
+@include tablet-view{
+  .first-section{
+    height: 78vh;
+
+    .first-container{
+      width: 100%;
+      padding: 0 2rem;
+      transform: translate(-50%, -50%);
+
+      h1{
+        font-size: 3rem;
+        letter-spacing: 0;
+      }
+
+      .hero-text{
+        padding-right: 4rem;
+      }
+
+      .line{
+        .block_1::after {
+          @include block;
+          width: 60px
+        }
       }
     }
   }
