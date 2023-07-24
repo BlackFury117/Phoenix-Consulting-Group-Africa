@@ -578,6 +578,43 @@ nav {
   }
 }
 
+@include tablet-view{
+  .third-section{
+
+    .line-3{
+      margin-left: 2rem;
+  
+      .block_3::after {
+        @include block;
+        width: 60px;
+      }
+    }
+
+    .why-us{
+      font-size: 2.30rem;
+      margin-left: 2rem;
+    }
+
+    .best-choice{
+      width: 91%;
+      padding: 1rem 1rem;
+      margin: 0 2rem 3rem 2rem;
+
+      .best-text{
+        margin-top: 0;
+      }
+    }
+
+    .third-container{
+      padding: 0 2rem;
+
+      .col{
+        flex: 40%;
+      }
+    }
+  }
+}
+
 /// FOURTH SECTION ///
 
 .fourth-section{
