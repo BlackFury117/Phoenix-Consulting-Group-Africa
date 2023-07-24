@@ -1148,6 +1148,39 @@ nav {
   }
 }
 
+@include laptop-view{
+  .line-6{
+    margin-left: 2rem;
+  }
+
+  .us{
+    font-size: 2.4rem;
+    margin-left: 2rem;
+  }
+
+  .sixth-section{
+    height: 55vh;
+
+    .sixth-container{
+      .about{
+        width: 100%;
+        padding: 0 2rem;
+
+        .text-last{
+          font-size: 1.3rem;
+          line-height: 1.6;
+        }
+
+        .icons{
+          .icon{
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
                       /// FOOTER SECTION ///
 
 footer {
