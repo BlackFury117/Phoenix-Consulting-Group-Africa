@@ -2,7 +2,8 @@
 
 ### Here is a screenshot of my work
 
-![Design preview for the Phoenix-Consulting-Group-Africa landing page](/assets/images/screenshot-of-my-work.jpg)
+![Design preview for the Phoenix-Consulting-Group-Africa landing page](/assets/images/screenshot-of-my-work.jpg) <br><br>
+
 ## Description
 
 This project aims to rebuild a website that was, let's admit it, quite  ugly and outdated. My mission was to give it a **fresh and modern look**, making it visually **appealing** and **user-friendly**. <br><br>
