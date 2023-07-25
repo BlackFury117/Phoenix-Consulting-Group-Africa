@@ -1,6 +1,6 @@
 # Phoenix-Consulting-Group-Africa - Personal project
 
-Here is a screenshot of my work
+### Here is a screenshot of my work
 
 ![Design preview for the Phoenix-Consulting-Group-Africa landing page](/assets/images/screenshot-of-my-work.jpg)
 ## Description
