@@ -290,6 +290,27 @@ nav {
   }
 }
 
+@include desktop-view{
+  .first-section{
+    height: 85vh;
+    
+    .first-container{
+      width: 100%;
+      padding: 0 3rem;
+      transform: translate(-50%, -50%);
+
+      h1{
+        letter-spacing: 0;
+      }
+
+      .hero-text{
+        padding-right: 14rem;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
 /// SECOND SECTION ///
 
 .line-2{
