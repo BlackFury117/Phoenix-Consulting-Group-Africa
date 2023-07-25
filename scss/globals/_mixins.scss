@@ -73,3 +73,9 @@
     @content;
   }
 }
+
+@mixin desktop-view{
+  @media (min-width: 993px) and (max-width: 1200px){
+    @content;
+  }
+}
