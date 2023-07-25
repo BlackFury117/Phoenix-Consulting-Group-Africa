@@ -315,6 +315,7 @@ nav {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 20;
 
   .whatsapp-icon{
     color: variables.$main-red-color;
