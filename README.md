@@ -20,7 +20,7 @@ The original [website](https://phoenixcga.com/) served its purpose, but it lacke
 - CSS Grid
 - JavaScript
 
-Preview it here - [Phoenix-Consulting-Group-Africa landing page]() <br><br>
+Preview it here - [Phoenix-Consulting-Group-Africa landing page](https://phoenixcga.netlify.app/) <br><br>
 
 ## Author
 
