@@ -755,6 +755,44 @@ nav {
   }
 }
 
+@include desktop-view{
+  .third-section{
+
+    .line-3{
+      margin-left: 3rem;
+    }
+
+    .why-us{
+      font-size: 2.4rem;
+      margin-left: 3rem;
+    }
+
+    .best-choice{
+      width: 91%;
+      padding: 1.2rem 1.2rem;
+      margin: 0 3rem 3rem 3rem;
+
+      .best-text{
+        font-size: 1.2rem;
+        margin-top: 0;
+      }
+    }
+
+    .third-container{
+      padding: 0 3rem;
+
+      .col{
+        .card-bis{
+          .footer{
+            line-height: 1.5;
+            font-size: 1.15rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 /// FOURTH SECTION ///
 
 .fourth-section{
