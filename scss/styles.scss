@@ -826,7 +826,7 @@ nav {
       margin: 0 auto 0 auto;
       .smiling-man{
         display: flex;
-        width: 300px;
+        width: 350px;
         margin: 0 auto 1rem auto;
       }
 
@@ -989,6 +989,24 @@ nav {
           margin-bottom: 0;
         }
       }
+    }
+  }
+}
+
+@include desktop-view{
+  .fourth-section{
+
+    .line-4{
+      margin-left: 3rem;
+    }
+
+    .mission{
+      font-size: 2.4rem;
+      margin-left: 3rem;
+    }
+
+    .fourth-container{
+      padding: 2rem 3rem 2rem 3rem;
     }
   }
 }
