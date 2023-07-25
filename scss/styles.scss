@@ -311,6 +311,17 @@ nav {
   }
 }
 
+#whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  .whatsapp-icon{
+    color: variables.$main-red-color;
+    font-size: 4rem;
+  }
+}
+
 /// SECOND SECTION ///
 
 .line-2{
