@@ -885,6 +885,14 @@ nav {
         position: relative;
         bottom: -100px;
 
+        .plus-sign{
+          display: flex;
+          align-items: center;
+          color: variables.$main-red-color;
+          font-size: 3rem;
+          font-weight: 700;
+        }
+
         .number{
           color: variables.$main-red-color;
           font-size: 3rem;
@@ -901,7 +909,7 @@ nav {
       .cols-2{
         background-color: variables.$main-red-color;
 
-        .number, .text-num{
+        .number, .text-num, .plus-sign{
           color: white;
         }
       }
