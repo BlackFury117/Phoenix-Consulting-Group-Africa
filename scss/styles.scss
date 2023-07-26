@@ -323,6 +323,19 @@ nav {
   }
 }
 
+.box {
+  transform: translateX(400%);
+  transition: transform 0.8s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
 /// SECOND SECTION ///
 
 .line-2{
