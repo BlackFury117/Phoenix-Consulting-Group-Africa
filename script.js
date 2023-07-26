@@ -50,22 +50,22 @@ let countElement4 = document.getElementById("count4");
     }
 }, 10);
 
-const boxes = document.querySelectorAll(".box");
+// const boxes = document.querySelectorAll(".box");
 
-window.addEventListener("scroll", checkBoxes);
+// window.addEventListener("scroll", checkBoxes);
 
-checkBoxes();
+// checkBoxes();
 
-function checkBoxes() {
-  const triggerBottom = (window.innerHeight / 5) * 4;
+// function checkBoxes() {
+//   const triggerBottom = (window.innerHeight / 5) * 4;
 
-  boxes.forEach((box) => {
-    const boxTop = box.getBoundingClientRect().top;
+//   boxes.forEach((box) => {
+//     const boxTop = box.getBoundingClientRect().top;
 
-    if (boxTop < triggerBottom) {
-      box.classList.add("show");
-    } else {
-      box.classList.remove("show");
-    }
-  });
-}
+//     if (boxTop < triggerBottom) {
+//       box.classList.add("show");
+//     } else {
+//       box.classList.remove("show");
+//     }
+//   });
+// }
